@@ -1,0 +1,7 @@
+applications:
+- name: joba-cf-demo-green
+  memory: 768M
+  instance: 1
+  random-route: true
+  buildpack: java_buildpack
+  path: ./target/joba-cf-demo.jar
